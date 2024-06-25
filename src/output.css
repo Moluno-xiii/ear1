@@ -715,11 +715,6 @@ video {
   clear: none;
 }
 
-.mx-5 {
-  margin-left: 1.25rem;
-  margin-right: 1.25rem;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -728,10 +723,6 @@ video {
 .my-10 {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
 }
 
 .mt-2 {
@@ -889,16 +880,12 @@ video {
   max-width: 1300px;
 }
 
-.max-w-\[750px\] {
-  max-width: 750px;
-}
-
 .max-w-\[600px\] {
   max-width: 600px;
 }
 
-.max-w-\[\] {
-  max-width: ;
+.max-w-\[750px\] {
+  max-width: 750px;
 }
 
 .flex-shrink {
@@ -2226,14 +2213,6 @@ video {
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
 }
 
-.leading-\[\] {
-  line-height: ;
-}
-
-.leading-\[45px\] {
-  line-height: 45px;
-}
-
 .text-\[\#336699\]\/\[\.35\] {
   color: rgb(51 102 153 / .35);
 }
@@ -2312,10 +2291,6 @@ video {
 
 .decoration-wavy {
   text-decoration-style: wavy;
-}
-
-.underline-offset-4 {
-  text-underline-offset: 4px;
 }
 
 .antialiased {
@@ -2754,14 +2729,6 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:m-10 {
-    margin: 2.5rem;
-  }
-
-  .md\:mt-16 {
-    margin-top: 4rem;
-  }
-
   .md\:flex {
     display: flex;
   }
@@ -2798,21 +2765,13 @@ video {
     align-items: center;
   }
 
-  .md\:justify-center {
-    justify-content: center;
-  }
-
-  .md\:gap-10 {
-    gap: 2.5rem;
+  .md\:gap-x-20 {
+    -moz-column-gap: 5rem;
+         column-gap: 5rem;
   }
 
   .md\:gap-y-10 {
     row-gap: 2.5rem;
-  }
-
-  .md\:gap-x-20 {
-    -moz-column-gap: 5rem;
-         column-gap: 5rem;
   }
 
   .md\:px-10 {
@@ -2835,10 +2794,6 @@ video {
     line-height: 1.75rem;
   }
 
-  .md\:text-\[40px\] {
-    font-size: 40px;
-  }
-
   .md\:leading-\[60px\] {
     line-height: 60px;
   }
@@ -2850,23 +2805,9 @@ video {
     margin-right: auto;
   }
 
-  .lg\:max-w-\[\] {
-    max-width: ;
-  }
-
   .lg\:translate-y-20 {
     --tw-translate-y: 5rem;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
-
-  .lg\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-
-  .lg\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
   }
 
   .lg\:text-\[40px\] {
@@ -2875,10 +2816,6 @@ video {
 
   .lg\:leading-\[45px\] {
     line-height: 45px;
-  }
-
-  .lg\:text-\[\] {
-    color: ;
   }
 }
 
