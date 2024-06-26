@@ -2888,6 +2888,11 @@ video {
     font-size: 40px;
   }
 
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
   .lg\:leading-\[45px\] {
     line-height: 45px;
   }
