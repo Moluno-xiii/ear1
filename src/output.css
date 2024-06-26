@@ -715,6 +715,11 @@ video {
   clear: none;
 }
 
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -725,26 +730,12 @@ video {
   margin-bottom: 2.5rem;
 }
 
-.mx-5 {
-  margin-left: 1.25rem;
-  margin-right: 1.25rem;
-}
-
-.my-7 {
-  margin-top: 1.75rem;
-  margin-bottom: 1.75rem;
-}
-
 .mt-2 {
   margin-top: 0.5rem;
 }
 
 .mt-20 {
   margin-top: 5rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
 }
 
 .mt-5 {
@@ -858,10 +849,6 @@ video {
   height: 6rem;
 }
 
-.max-h-\[80dvh\] {
-  max-height: 80dvh;
-}
-
 .max-h-\[calc\(100dvh-6rem\)\] {
   max-height: calc(100dvh - 6rem);
 }
@@ -882,10 +869,6 @@ video {
   width: weird-and-invalid;
 }
 
-.w-40 {
-  width: 10rem;
-}
-
 .max-w-\[1000px\] {
   max-width: 1000px;
 }
@@ -894,24 +877,16 @@ video {
   max-width: 1300px;
 }
 
+.max-w-\[267px\] {
+  max-width: 267px;
+}
+
 .max-w-\[600px\] {
   max-width: 600px;
 }
 
 .max-w-\[750px\] {
   max-width: 750px;
-}
-
-.max-w-lg {
-  max-width: 32rem;
-}
-
-.max-w-\[500px\] {
-  max-width: 500px;
-}
-
-.max-w-\[267px\] {
-  max-width: 267px;
 }
 
 .flex-shrink {
@@ -1469,11 +1444,6 @@ video {
 
 .gap-y-5 {
   row-gap: 1.25rem;
-}
-
-.gap-x-10 {
-  -moz-column-gap: 2.5rem;
-       column-gap: 2.5rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -2082,14 +2052,8 @@ video {
   padding-bottom: 2.5rem;
 }
 
-.py-7 {
-  padding-top: 1.75rem;
-  padding-bottom: 1.75rem;
-}
-
-.px-7 {
-  padding-left: 1.75rem;
-  padding-right: 1.75rem;
+.pt-5 {
+  padding-top: 1.25rem;
 }
 
 .text-left {
@@ -2148,6 +2112,10 @@ video {
   vertical-align: super;
 }
 
+.font-poppins {
+  font-family: Poppins, sans-serif;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -2156,6 +2124,10 @@ video {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-\[14px\] {
+  font-size: 14px;
 }
 
 .text-base {
@@ -2176,10 +2148,6 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-\[14px\] {
-  font-size: 14px;
 }
 
 .font-bold {
@@ -2767,18 +2735,6 @@ video {
   text-align: center;
 }
 
-@media not all and (min-width: 768px) {
-  .max-md\:inline-block {
-    display: inline-block;
-  }
-}
-
-@media not all and (min-width: 640px) {
-  .max-sm\:inline-block {
-    display: inline-block;
-  }
-}
-
 @media (min-width: 640px) {
   .sm\:underline {
     text-decoration-line: underline;
@@ -2789,10 +2745,6 @@ video {
   .md\:mx-10 {
     margin-left: 2.5rem;
     margin-right: 2.5rem;
-  }
-
-  .md\:inline-block {
-    display: inline-block;
   }
 
   .md\:flex {
@@ -2811,12 +2763,12 @@ video {
     height: 100px;
   }
 
-  .md\:h-\[90px\] {
-    height: 90px;
-  }
-
   .md\:h-\[265px\] {
     height: 265px;
+  }
+
+  .md\:h-\[90px\] {
+    height: 90px;
   }
 
   .md\:max-h-\[calc\(100dvh-8rem\)\] {
@@ -2825,6 +2777,10 @@ video {
 
   .md\:w-\[90px\] {
     width: 90px;
+  }
+
+  .md\:max-w-\[500px\] {
+    max-width: 500px;
   }
 
   .md\:flex-row {
@@ -2847,6 +2803,11 @@ video {
     justify-content: space-around;
   }
 
+  .md\:gap-x-10 {
+    -moz-column-gap: 2.5rem;
+         column-gap: 2.5rem;
+  }
+
   .md\:gap-x-20 {
     -moz-column-gap: 5rem;
          column-gap: 5rem;
@@ -2854,11 +2815,6 @@ video {
 
   .md\:gap-y-10 {
     row-gap: 2.5rem;
-  }
-
-  .md\:gap-x-10 {
-    -moz-column-gap: 2.5rem;
-         column-gap: 2.5rem;
   }
 
   .md\:px-10 {
@@ -2869,6 +2825,11 @@ video {
   .md\:px-20 {
     padding-left: 5rem;
     padding-right: 5rem;
+  }
+
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 
   .md\:text-5xl {
@@ -2886,6 +2847,10 @@ video {
     line-height: 1.75rem;
   }
 
+  .md\:leading-\[40px\] {
+    line-height: 40px;
+  }
+
   .md\:leading-\[60px\] {
     line-height: 60px;
   }
@@ -2895,6 +2860,10 @@ video {
   .lg\:mx-auto {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .lg\:max-w-\[600px\] {
+    max-width: 600px;
   }
 
   .lg\:translate-y-20 {
@@ -2908,6 +2877,11 @@ video {
 
   .lg\:rounded-3xl {
     border-radius: 1.5rem;
+  }
+
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .lg\:text-\[40px\] {
